@@ -1,0 +1,7 @@
+flutter build appbundle
+flutter build apk --split-per-abi
+flutter build web
+flutter pub run flutter_launcher_icons:main
+ getx create page:noconnection
+flutter pub run change_app_package_name:main ir.tagweb.rabbit
+flutter build apk --split-per-abi --no-tree-shake-icons
